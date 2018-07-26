@@ -1,4 +1,4 @@
-const { Builder, By, Key, until } = require('selenium-webdriver')
+const { Builder, By, until } = require('selenium-webdriver')
 require('selenium-webdriver/chrome')
 require('selenium-webdriver/firefox')
 require('chromedriver')
