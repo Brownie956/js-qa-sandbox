@@ -11,7 +11,7 @@ describe('The Mozilla website', () => {
         await user.browserQuit();
     });
 
-    it('displays the correct title', async () => {
+    it('displays the correct menu label', async () => {
         await user.clicksNavButtonMenu();
         expected = await user.viewsFirefoxMenu();
         expect(expected).toEqual('Firefox');
